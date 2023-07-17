@@ -1,0 +1,158 @@
+html {
+    font-size: 10px;
+    max-width: 100%;
+    overflow: scroll;
+}
+body {
+    background-image: url(images/background.jpg);
+    background-repeat:repeat;
+}
+header {
+    background-color:#F8C8DC;
+    max-width: 100%;
+    top: 0;
+    padding: 10rem;
+    border: .5rem solid #ffffff;
+    background-image: url(images/header-flower.webp);
+    background-position: center;
+}
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 8rem;
+    font-family: 'Merriweather', serif;
+    text-shadow: 0.8rem 0.6rem 0.4rem #577732;
+    animation: fadeIn 2s;
+}
+nav {
+    padding: 5rem;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0rem;
+    margin: 2rem auto;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 0.1rem 0.1rem 0.5rem #ffffff;
+}
+li {
+    list-style-type: none;
+}
+a {
+    color: #B6326E;
+    background: #9dc320ee;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    padding: 1.6rem 3rem;
+    border: 0.3rem solid #ffffff;
+    border-radius: 0.8rem;
+    margin: 0rem 2rem 0rem 2rem; 
+}
+.flo, .bou {
+    padding: 1.5rem 9.5rem;
+}
+a:hover {
+    opacity: 0.8;
+    color: #5f0f0f;
+}
+.description {
+    background-color: rgb(255, 255, 255, .9);
+    padding: 2rem;
+    height: auto;
+    overflow: auto;
+}
+h2 {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 4rem;
+    color: #361F29;
+    border-radius: 1px;
+    
+    margin: 2rem;
+}
+.image-1 {
+    float: right;
+    clear: both;
+    color: rgb(255, 255, 255, .9);
+    border: 0.2rem dotted #361F29;
+    padding: 0.2rem;
+    margin: 2.5rem 1rem 2.5rem 2.5rem;
+}
+p {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem; 
+}
+.image-2 {
+    float: left;
+    clear: left;
+    color: rgb(255, 255, 255, .9);
+    border: 0.2rem dotted #361F29;
+    padding: 0.2rem;
+    margin: 2.5rem 2.5rem 2.5rem 1rem;
+}
+footer {
+    position:relative;
+    clear: both;
+    bottom: 0px;
+    width: 100%;
+    background-color: #F8C8DC;
+    color: #361F29;
+    margin-top: 4rem;
+}    
+.email {
+    margin: auto 20rem auto 0rem;
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+}
+h3 {
+    font-size: 2rem;
+    margin: 1rem;
+}
+form {
+    margin: 1rem;
+}
+input {
+    margin: auto;
+}
+.top-footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+.right-footer {
+    font-size: 2rem;
+    text-align: center;
+    margin: auto 2rem;
+}
+h4 {
+    color:#955454;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 0rem 0rem 2rem 0rem;
+    margin: 0;
+}
+/* 
+
+main{
+    margin-bottom: 25rem;
+}
+
+    position: fixed;
+    width: 100%;
+    
+    font-size: medium;
+    background-color: #F8C8DC
+
+h3 {
+    font-size: small;
+    font-family: 'Playfair Display', serif;
+}
+
+h4 {
+  text-align: center;
+  font-size: smaller;
+} */
+
